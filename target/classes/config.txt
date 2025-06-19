@@ -1,0 +1,6 @@
+# Logging configuration
+log.level=INFO
+length.min=5
+length.max=200
+filter.illegalChars=true
+filter.controlChars=true
