@@ -4,7 +4,7 @@ import java.util.Set;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-public class SourceFilter implements EventFilter {
+public class SourceFilter implements LogFilter {
     private final Set<String> allowedSources;
 
     public SourceFilter(String allowedCsv) {

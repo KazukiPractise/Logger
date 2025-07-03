@@ -1,6 +1,6 @@
 package org.example.logger;
 
-public class LevelFilter implements EventFilter {
+public class LevelFilter implements LogFilter {
     private final String level;
 
     public LevelFilter(String level) {
